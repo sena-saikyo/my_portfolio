@@ -1,8 +1,8 @@
 import { Route, Routes, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Status from './pages/Status';
-import Projects from './pages/Projects';
-import Team from './pages/Team';
+import Skill from './pages/Skill';
+import Record from './pages/Record';
 import Contact from './pages/Contact';
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="status" element={<Status />} />
-      <Route path="projects" element={<Projects />} />
-      <Route path="team" element={<Team />} />
+      <Route path="skill" element={<Skill />} />
+      <Route path="record" element={<Record />} />
       <Route path="contact" element={<Contact />} />
       <Route path="*" element={<Home />} />
     </Routes>

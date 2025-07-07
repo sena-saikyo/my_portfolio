@@ -2,9 +2,8 @@ import { Link } from 'react-router-dom';
 
 export default function Contact() {
   const contacts = [
-    { label: 'Email', value: 'example@example.com' },
-    { label: 'GitHub', value: 'https://github.com/example' },
-    { label: 'LinkedIn', value: 'https://linkedin.com/in/example' },
+    { label: 'Email', value: 'sena201305@gmail.com' },
+    { label: 'GitHub', value: 'https://github.com/sena-saikyo' },
   ];
 
   return (

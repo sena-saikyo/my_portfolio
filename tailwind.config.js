@@ -5,7 +5,11 @@ export default {
     './src/**/*.{js,jsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        dot: ['"DotGothic16"', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
