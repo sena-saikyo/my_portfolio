@@ -17,7 +17,7 @@ export default function Status() {
       <div className="mb-6">
         <p className="mb-2">🎭 アバター：</p>
         <img
-          src={showPhoto ? "/photo_avatar.jpg" : "/dot_avatar.png"}
+          src={showPhoto ? "photo_avatar.jpg" : "dot_avatar.png"}
           alt="アバター"
           className="w-32 h-32 object-contain border-2 border-white mb-2"
         />
