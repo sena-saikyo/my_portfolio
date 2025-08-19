@@ -8,6 +8,17 @@ export default function Record() {
 
   const works = [
     '家庭内通貨アプリ（Flutter）',
+    <>
+    方言翻訳アプリ(React):
+      <a
+        href="https://dogenkotu.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline text-blue-400 hover:text-blue-200"
+      >
+        https://dogenkotu.vercel.app/
+      </a>
+    </>
   ];
 
   return (
